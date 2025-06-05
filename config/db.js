@@ -1,7 +1,7 @@
 const { Client } = require('pg');
 
 const client = new Client({
-    user: 'myuserdimarch_pg',
+    user: 'dimarch_pg',
     host: 'localhost',
     database: 'volunteer_db',
     password: '123',
